@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kumbh+Sans&family=Montserrat&display=swap");
+
+html {
+  box-sizing: border-box;
+  /* It prevents adding extra width to the page horizontally every time you add padding. */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  --headingFont: Bebas Neue;
+  --paragraphFont: Kumbh Sans;
+  --linkFont: Montserrat;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: var(--headingFont);
+  letter-spacing: 5px;
+}
+
+p {
+  font-family: var(--paragraphFont);
+}
+
+a {
+  font-family: var(--linkFont);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* MOBILE SCREEN */
+
+/* TABLET SCREEN */
+@media (min-width: 660px) {
+}
+
+/* LANDSCAPE TABLET SCREEN */
+@media (min-width: 860px) {
+}
+
+/* LARGE SCREEN */
+@media (min-width: 1060px) {
+}
+
+/* EXTREMELY LARGE SCREEN */
+@media (min-width: 1260px) {
+}
